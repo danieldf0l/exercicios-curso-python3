@@ -1,5 +1,5 @@
 from math import radians, sin, cos, tan
-angulo = int(input('insira o angulo a ser análisado: '))
+angulo = int(input('insira o angulo a ser analisado: '))
 anguloRadiano = radians(angulo)
 seno = sin(anguloRadiano)
 cosseno = cos(anguloRadiano)
