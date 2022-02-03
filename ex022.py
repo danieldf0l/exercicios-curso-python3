@@ -1,0 +1,6 @@
+Nome = input('Insira seu nome completo: ').strip()
+NomeSeparado = Nome.split()
+print(f'Seu nome em caixa alta fica: {Nome.upper()}')
+print(f'Seu nome em caixa baixa fica: {Nome.lower()}')
+print(f'Ao todo, seu nome tem {len(Nome) - Nome.count(" ")} letras')
+print(f'Seu primeiro nome tem {len(NomeSeparado[0])} letras')
