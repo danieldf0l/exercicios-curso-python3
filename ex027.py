@@ -1,4 +1,3 @@
 NomeCompleto = input('Insira seu nome completo: ').strip().split()
-PrimeiroNome = :NomeCompleto.find(" ")
-print(f'Seu primeiro nome é: {PrimeiroNome}')
-# print(f'Seu último nome é: {}')
+print(f'Seu primeiro nome é: {NomeCompleto[0]}')
+print(f'Seu último nome é: {NomeCompleto[len(NomeCompleto)-1]}')
